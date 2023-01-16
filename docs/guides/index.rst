@@ -6,7 +6,6 @@ Guides
 
    jax_for_the_impatient
    flax_basics
-   arguments
    state_params
    setup_or_nncompact
    dropout
@@ -20,11 +19,7 @@ Guides
 
 .. toctree::
    :maxdepth: 1
-   :caption: Tips and tricks
+   :caption: Tips and Tricks
 
    ensembling
    full_eval
-   convert_pytorch_to_flax
-   optax_update_guide
-   linen_upgrade_guide
-   The Sharp Bits <../notebooks/flax_sharp_bits>

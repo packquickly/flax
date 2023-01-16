@@ -1,4 +1,4 @@
-Learning rate scheduling
+Learning Rate Scheduling
 =============================
 
 The learning rate is considered one of the most important hyperparameters for

@@ -18,16 +18,11 @@ To run tests locally, run `make doctest`
 
 # How to write code documentation
 
-Our documentation is written in reStructuredText for Sphinx. It is a
-meta-language that is compiled into online documentation. For more details, 
-check out
+Our documentation it is written in ReStructuredText for Sphinx. This is a
+meta-language that is compiled into online documentation. For more details see
 [Sphinx's documentation](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
 As a result, our docstrings adhere to a specific syntax that has to be kept in
 mind. Below we provide some guidelines.
-
-To learn how to contribute to Jupyter Notebooks or other formats in Flax docs,
-refer to the dedicated
-[Contributing](https://flax.readthedocs.io/en/latest/contributing.html) page.
 
 ## How much information to put in a docstring
 
