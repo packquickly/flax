@@ -495,8 +495,8 @@ def vmap(
         lift.CollectionFilter, lift.InOutAxis
     ] = FrozenDict(),
     split_rngs: Mapping[lift.PRNGSequenceFilter, bool] = FrozenDict(),
-    in_axes=0,
-    out_axes=0,
+    in_axes: Union[int, None, Sequence[Any]] = 0,
+    out_axes: Any = 0,
     axis_size: Optional[int] = None,
     axis_name: Optional[str] = None,
     spmd_axis_name: Optional[str] = None,
